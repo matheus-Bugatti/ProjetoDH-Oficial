@@ -839,10 +839,11 @@ iuqnwqdcwuhdqchwnduqcnwudncuqndcq */
     }
 
     .secaoC {
-        padding-left:-10px;
+        padding-left:10px;
         width: 480px;
         display: flex;
         flex-direction: column;
+        margin-right:8px;
     }
 
     .tituloh01 {
