@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direitos Humanos em Foco</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/peticoes.css">
+    <link rel="shortcut icon" href="img/logo-solo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="navbar">
+            <a href="index.html" id="logo-nav"><img src="img/logo-lado.svg" height="90px"></a>
+            <div class="Nav-Itens">
+                <a href="index.html" class="Nav-Item">Home</a>
+                <div class="dropdown">
+                    <a href="servicos0.html" class="Nav-Item" id="droplink">Serviços</a>
+                    <div class="dropdownOp">
+                        <div class="dropdown-content">
+                            <div class="dropdown-item-content">
+                                <div class="drop-list-block-link" id="drop-materiais-block">
+                                    <a href="servicos1.html" class="drop-list-item-link"
+                                        id="drop-materiais">Materiais</a>
+                                </div>
+                                <div class="drop-list-block-link" id="drop-eventos-block">
+                                    <a href="servicos2.html" class="drop-list-item-link" id="drop-eventos">Eventos</a>
+                                </div>
+                                <div class="drop-list-block-link" id="drop-peticoes-block">
+                                    <a href="servicos2.html" class="drop-list-item-link" id="drop-peticoes">Petições</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="participe.html" class="Nav-Item">Participe</a>
+                <a href="sobre.html" class="Nav-Item">Sobre nós</a>
+            </div>
+            <div class="search-div">
+                <input type="search" id="search">
+                <img src="img/search.svg" alt="Botão de Pesquisa" id="search-img">
+            </div>
+            <div class="Arealog">
+                <button class="button entrar" href="#">Entrar</button>
+                <a href="#" class="Regis">Registre-se</a>
+            </div>
+        </div>
+    </header>
+
+
+    <body>
+
+
+        <div class="container">
+
+            <!-- Seção da Petição -->
+            <section>
+                <h2>Petição: Pela Proteção dos Direitos Humanos Globais</h2>
+                <div class="petition-info">
+                    <p>Esta petição tem como objetivo garantir que os direitos humanos de todos sejam respeitados,
+                        independente de sua origem, etnia, religião ou condição social. O direito à liberdade, à
+                        educação, à saúde e à igualdade são inalienáveis e devem ser assegurados a todos os seres
+                        humanos.</p>
+                    <p>Junte-se a nós e apoie essa causa tão importante, assinando esta petição e mostrando que você
+                        acredita na dignidade de todos os seres humanos!</p>
+                </div>
+
+                <a href="#sign-petition" class="cta-button">Assine a Petição Agora</a>
+            </section>
+
+            <!-- Seção de Formulário para Assinatura -->
+            <section id="sign-petition">
+                <h2>Assine a Petição</h2>
+                <p>Preencha o formulário abaixo para apoiar a causa e garantir que os direitos humanos sejam respeitados
+                    no mundo todo.</p>
+
+                <div class="form-container">
+                    <form action="/submit-petition" method="POST">
+                        <label for="full-name">Nome Completo:</label>
+                        <input type="text" id="full-name" name="full-name" required>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Mensagem (opcional):</label>
+                        <textarea id="message" name="message"
+                            placeholder="Deixe uma mensagem ou razão do seu apoio..."></textarea>
+
+                        <button type="submit">Assinar Petição</button>
+                    </form>
+                </div>
+            </section>
+
+        </div>
+
+
+    </body>
+    <section class="rodape">
+        <span class="copyright">Copyright © 2024 - Direitos Humanos</span>
+        <div class="contatos">
+            <div class="contatos-cont email">
+                <img src="img/mail-outline.svg" alt="Email" class="img-contato">
+                <a href="mailto:contato@direitoshumanos.com.br" class="contato" id="email"
+                    target="_blank">contato@direitoshumanos.com.br</a>
+            </div>
+            <div class="contatos-cont instar">
+                <img src="img/logo-instagram.svg" alt="Instagram" class="img-contato">
+                <a href="https://www.instagram.com/DireitosHumanos/" class="contato" id="instra"
+                    target="_blank">@DireitosHumanos</a>
+            </div>
+            <div class="contatos-cont zarp">
+                <img src="img/logo-whatsapp.svg" alt="WhatsApp" class="img-contato">
+                <a href="https://wa.me/+5512999999999" class="contato" id="zaps" target="_blank">Contato no WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+</html>
