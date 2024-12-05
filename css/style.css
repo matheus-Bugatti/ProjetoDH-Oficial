@@ -131,10 +131,6 @@ auchbwubqcbwhadcbuhabwchbdhucbahudcba */
     transition: 0.3s;
 }
 
-#search-button:hover {
-    background-color: #8B1840
-}
-
 .Arealog {
     display: flex;
     flex-direction: column;
